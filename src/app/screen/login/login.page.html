@@ -1,0 +1,32 @@
+<ion-content class="ion-padding">
+  <h1>Welcome,</h1>
+  <h3>Sign in to continue!</h3>
+
+
+  <ion-card>
+    <!-- <ion-card-header>
+      <img src="assets/app_icon.png" alt="appicon"/>
+      <ion-card-title>Login</ion-card-title>
+    </ion-card-header> -->
+    
+    <ion-card-content>
+    
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input [(ngModel)]="user.email" type="email"></ion-input>
+      </ion-item>
+      
+
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input [(ngModel)]="user.password" type="password"></ion-input>
+      </ion-item>
+
+    </ion-card-content>
+
+    <ion-button expand="block" (click)="LogMeIn()" size="full" class="ion-margin-bottom">Login</ion-button>
+
+  </ion-card>
+  
+  <p class="footer-text">I'm a new user, <a routerLink="../register">Sign Up</a></p>
+</ion-content>

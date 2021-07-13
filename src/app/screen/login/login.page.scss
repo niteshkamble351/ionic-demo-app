@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-top: 5%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    color: #939fab;
+    font-weight: 600;
+  }
+  
+  ion-button {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  ion-card{
+    margin-top: 4rem;
+    padding: 10px;
+  }
+  
+  .footer-text {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10%;
+  
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #fa578e;
+    }
+  }
+  
